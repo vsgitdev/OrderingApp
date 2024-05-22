@@ -1,0 +1,140 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.page {
+    background-color: #f0f8fd;
+    position: relative;
+}
+
+.home-page {
+   margin-left: 30px;
+    top: 10px;
+    left: 50%;
+    
+}
+
+.home-page a i {
+    display: inline-block;
+    margin-right: 5px;
+    color: #3498db; 
+}
+
+
+.home-page h3 {
+    display: inline-block;
+    color: #3498db;
+}
+
+
+h1 {
+    color: black;
+    margin-top: 40px; 
+}
+
+.category-buttons {
+    margin-top: 20px;
+}
+
+.category-buttons form {
+    margin-right: 10px;
+}
+
+.category-buttons button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.product-buttons {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.product-buttons form {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.product-buttons button {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-left: 20px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer h2 {
+    font-size: 18px;
+    color: #27ae60; 
+}
+
+.footer a {
+    margin-left: 20px;
+}
+
+.disabled-button {
+    pointer-events: none;
+}
+
+h1.cart {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h2.total_cart {
+    margin-left: 65%;
+}
+
+h2.total_cart::after {
+    content: " \20AC"; 
+}
+.product-grid-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color:  #f0f8fd;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 1.5rem;
+    border-color: #fff;
+    box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.3);
+}
+
+.product-grid {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.product-grid th, .product-grid td {
+    border-color: #3498db;
+    border-radius: 1.5rem;
+    padding: 10px;
+    text-align: left;
+}
+
+.product-grid th {
+    background-color: white;
+}
+
+
