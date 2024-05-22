@@ -1,3 +1,3 @@
 # OrderingApp
-OrderingApp Demo using PHP / MySQL
+OrderingApp Demo using PHP / MySQL.
 The development of the ordering application uses PHP and a MySQL database named OrderAppDB. The project includes four main PHP files: index.php for displaying active categories, products.php for showing products in a selected category, insert_cart.php for managing the shopping cart, and cart.php for reviewing cart contents. The application ensures a seamless user experience with functionalities such as dynamic category and product displays, cart management, and real-time cart updates. The database structure includes categories and products tables with clearly defined relationships.
